@@ -1,0 +1,22 @@
+[
+  {
+    "pattern": "ERROR: Could not find a version that satisfies the requirement",
+    "description": "Dependency Installation Failure: A required Python package could not be installed via pip."
+  },
+  {
+    "pattern": "docker(?:-compose)?: command not found",
+    "description": "Environment Setup Failure: The Docker command is not available on the execution agent."
+  },
+  {
+    "pattern": "Could not resolve host: .*",
+    "description": "Network Connectivity Error: A network request failed, possibly due to a DNS or firewall issue."
+  },
+  {
+    "pattern": "npm ERR! code E404",
+    "description": "NPM Package Not Found: A required NodeJS package could not be found in the registry."
+  },
+  {
+    "pattern": "Timeout waiting for",
+    "description": "Timeout Error: An operation did not complete within the expected time limit."
+  }
+]

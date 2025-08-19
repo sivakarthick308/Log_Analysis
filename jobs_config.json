@@ -1,0 +1,17 @@
+[
+  {
+    "job_name": "MyProject/main",
+    "build_id": "145",
+    "stage_id": "25"
+  },
+  {
+    "job_name": "AnotherProject/develop",
+    "build_id": "lastSuccessfulBuild",
+    "stage_id": "18"
+  },
+  {
+    "job_name": "Legacy-System-CI",
+    "build_id": "99",
+    "stage_id": null
+  }
+]
